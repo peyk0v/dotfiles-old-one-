@@ -92,6 +92,9 @@ plugins=(
 
 source $ZSH/oh-my-zsh.sh
 
+#extension for dracula theme for zsh
+eval `dircolors /path/to/dircolorsdb`
+
 # User configuration
 
 # export MANPATH="/usr/local/man:$MANPATH"
